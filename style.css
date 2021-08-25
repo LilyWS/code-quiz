@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    line-height: 8vh;
+    min-height: 8vh;
+    margin: 0 1vw;
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin-top: 0vh;
+}
+
+main section {
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2em;
+    padding: 3vh 0;
+}
+
+h2 {
+    font-size: 1.6em;
+}
