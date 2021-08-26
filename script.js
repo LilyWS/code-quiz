@@ -7,7 +7,7 @@ var highscoreDisplayEl = document.querySelector('.highscores')
 var questions = ["What language is making a framework for this website to work off of?", "What language is styling this website?", "What does DOM stand for?", "What framework allows for convinient DOM manipulation?", "The ____ tag tell search engines about your website"];
 
 
-var testRecieve = JSON.parse(localStorage.getItem("test"));
+
 var answers = [
     ["HTML", "CSS", "JQuery", "Python"],
     ["CSS", "Javascript", "Bootstrap", "Scratch"],
@@ -22,7 +22,7 @@ var question = -1;
 var qOrder = [0, 1, 2, 3, 4]; //question order
 qOrder = shuffleArray(qOrder);
 
-var highscores = JSON.parse(localStorage.getItem("highscores"));
+var highscores = (localStorage.getItem("highscores") == null) ? [] : JSON.parse(localStorage.getItem("highscores"));
 
 if(highscoreDisplayEl){
     if(highscores!==null){
