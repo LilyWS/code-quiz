@@ -1,4 +1,4 @@
-# first-portfolio
+# Code Quiz
 ## Description 
 A simple code quiz using javascript
 ## Screenshots
