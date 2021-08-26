@@ -23,7 +23,7 @@ var qOrder = [0, 1, 2, 3, 4]; //question order
 qOrder = shuffleArray(qOrder);
 
 var highscores = (localStorage.getItem("highscores") == null) ? [] : JSON.parse(localStorage.getItem("highscores"));
-
+console.log(highscores);
 if(highscoreDisplayEl){
     if(highscores!==null){
         for(let i=0; i<highscores.length; i++){
